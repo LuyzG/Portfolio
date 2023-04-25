@@ -1,0 +1,112 @@
+*{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #837E9F;
+}
+html{
+    background-color: #22212C;
+}
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+}
+.card{
+    background-color: #302F3D;
+    border-radius: 10px;
+    padding: 0 7px 0 7px;
+    box-shadow: 2px 2px 5px #121218;
+}
+.tech{
+    background-color: #CB92B1;
+    border-radius:20cm;
+    flex-basis: 30%;
+    color: black;
+}
+body{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+#profilepic{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+}
+#profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-basis: auto;
+    font-weight:700;
+    flex-wrap: wrap;
+}
+div.card>ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+div.contact>ul>li{
+    display: flex;
+    align-items: center;
+    margin: .8rem;
+    gap: .8rem;
+}
+#techs{
+    display: flex;
+    flex-direction:column;
+}
+#techs ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    flex-basis: 30%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 10px;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding:30px 30px;
+}
+.title>div:first-child{
+    font-size: 25px;
+    font-weight: 700;
+}
+.title>div:last-child{
+    font-size: 15px;
+}
+main>div.projects{
+    display: flex; 
+}
+.myprojects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;   
+}
+.myposts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.project, .post{
+    flex-grow: 1;
+}
